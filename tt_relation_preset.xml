@@ -1,112 +1,26 @@
-<!-- 
-	
-Title:..........JOSM Highway Tagging Preset
-Authors:.........jwestlake16
-Contributors:...
-Latest update:..8/9/2016
-Summary:........This preset allows for multiple highway tags to be added as keyboard shortcuts using the toolbar.
-
-Streets preset includes: highway tags, highway links, buildings, oneway, roundabout and elevation.
-
-motorway|trunk|primary|secondary|tertiary|residential|unclassified|service|track. 
-[motorway_link|trunk_link|primary_link|secondary_link|tertiary_link]. 
-building:yes|building:hut. 
-oneway:yes
-junction:roundabout 
-[bridge:yes, level:1|tunnel:yes, level:-1|level:2|level:3|level:4] 
-
+<!-- 	
+Title:..........JOSM custom relation Tagging Preset
+Authors:.........Godfan
+Latest update:..24/05/2022
+Summary:........This preset allows users to add multiple relation tags to be added as keyboard shortcuts using the toolbar.
+preset includes: admin_level, boundary, meta:ISO3166-1:alpha2, meta:tolerance, meta:view, type, name name:ISO, meta:ifabsent, meta:comment
 Install instructions: (note a few restarts will be required)
 1. Add tagging preset in JOSM using the github raw link in the Map Setting preferences.
 2. Add presets to the toolbar in the Toolbar Customization preferences.
 3. Set keyboard shortcuts to desired preset tag in the Keyboard Shortcuts preferences (note: these will appear under "toolbar:" if searched. 
-
 -->
 
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-		<item name="Track" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/track.png" type="way,closedway">
-			<key key="highway" value="track" />
-		</item>
-		<item name="Service" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/service.png" type="relation">
-			<key key="highway" value="service" />
+		<item name="Custom_relation_tags" icon="https://josm.openstreetmap.de/export/18454/josm/trunk/resources/images/dialogs/add.svg" type="relation">
 			<key key="admin_level" value="" />
 			<key key="boundary" value="" />
 			<key key="meta:ISO3166-1:alpha2" value="" />
 			<key key="meta:tolerance" value="" />
 			<key key="meta:view" value="" />
 			<key key="type" value="" />
-			<key key="name name:ISO" value="" />
+			<key key="name name:ISO" value="" />
 			<key key="meta:ifabsent" value="" />
 			<key key="meta:comment" value="" />
 		</item>
-		<item name="Residential" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/residential.png" type="way,closedway">
-			<key key="highway" value="residential" />
-		</item>
-		<item name="Unclassified" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/unclassified.png" type="way,closedway">
-			<key key="highway" value="unclassified" />
-		</item>
-		<item name="Tertiary" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/tertiary.png" type="way,closedway">
-			<key key="highway" value="tertiary" />
-		</item>
-		<item name="Secondary" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/secondary.png" type="way,closedway">
-			<key key="highway" value="secondary" />
-		</item>
-		<item name="Primary" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/primary.png" type="way,closedway">
-			<key key="highway" value="primary" />
-		</item>
-		<item name="Trunk" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/trunk.png" type="way,closedway">
-			<key key="highway" value="trunk" />
-		</item>
-		<item name="Motorway" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/motorway.png" type="way,closedway">
-			<key key="highway" value="motorway" />
-		</item>
-
-		<item name="oneway" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/oneway.png" type="way,closedway">
-			<key key="oneway" value="yes" />
-		</item>
-
-		<item name="roundabout" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/roundabout_left.svg" type="way,closedway">
-			<key key="junction" value="roundabout" />
-		</item>
-
-	<group name="Links" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/links.png">
-		<item name="Tertiary" type="way,closedway">
-			<key key="highway" value="tertiary_link" />
-		</item>
-		<item name="Secondary" type="way,closedway">
-			<key key="highway" value="secondary_link" />
-		</item>
-		<item name="Primary" type="way,closedway">
-			<key key="highway" value="primary_link" />
-		</item>
-		<item name="Trunk" type="way,closedway">
-			<key key="highway" value="trunk_link" />
-		</item>
-		<item name="Motorway" type="way,closedway">
-			<key key="highway" value="motorway_link" />
-		</item>
-	</group>
-
-	<group name="Elevation" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/bridge_outline.svg">
-            <item name="bridge" type="way,closedway">
-                <key key="bridge" value="yes" />
-                <key key="layer" value="1" />
-            </item>
-            <item name="tunnel" type="way,closedway">
-                <key key="tunnel" value="yes" />
-                <key key="layer" value="-1" />
-            </item>
-            <item name="layer 1" type="way,closedway">
-        	    <key key="layer" value="1" />
-        	</item>
-    		<item name="layer 2" type="way,closedway">
-    			<key key="layer" value="2" />
-    		</item>
-    		<item name="layer 3" type="way,closedway">
-    			<key key="layer" value="3" />
-			</item>
-			<item name="layer 4" type="way,closedway">
-        		<key key="layer" value="4" />
-    		</item>
-        </group> 
 
 </presets>
