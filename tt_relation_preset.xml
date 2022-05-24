@@ -11,7 +11,7 @@ Install instructions: (note a few restarts will be required)
 -->
 
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-		<item name="Custom_relation_tags" icon="https://wiki.openstreetmap.org/w/images/thumb/e/ed/JOSM-Icon-addrelation.svg/120px-JOSM-Icon-addrelation.svg.png" type="relation">
+		<item name="Custom_relation_tags" icon="https://raw.githubusercontent.com/jwestlake16/Presets/master/Icons/residential.png" type="relation">
 			<key key="admin_level" value="" />
 			<key key="boundary" value="" />
 			<key key="meta:ISO3166-1:alpha2" value="" />
