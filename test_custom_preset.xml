@@ -1,0 +1,26 @@
+<!-- 	
+Title:..........JOSM custom relation Tagging Preset
+Authors:.........Godfan
+Latest update:..24/05/2022
+Summary:........This preset allows users to add multiple relation tags to be added as keyboard shortcuts using the toolbar.
+preset includes: admin_level, boundary, meta:ISO3166-1:alpha2, meta:tolerance, meta:view, type, name name:ISO, meta:ifabsent, meta:comment
+Install instructions: (note a few restarts will be required)
+1. Add tagging preset in JOSM using the github raw link in the Map Setting preferences.
+2. Add presets to the toolbar in the Toolbar Customization preferences.
+3. Set keyboard shortcuts to desired preset tag in the Keyboard Shortcuts preferences (note: these will appear under "toolbar:" if searched. 
+-->
+
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+		<item name="Custom_relation_tags" icon="https://josm.openstreetmap.de/export/18454/josm/trunk/resources/images/dialogs/add.svg" type="relation">
+			<key key="admin_level" value="" />
+			<key key="boundary" value="" />
+			<key key="meta:ISO3166-1:alpha2" value="" />
+			<key key="meta:tolerance" value="" />
+			<key key="meta:view" value="" />
+			<key key="type" value="" />
+			<key key="name name:ISO" value="" />
+			<key key="meta:ifabsent" value="" />
+			<key key="meta:comment" value="" />
+		</item>
+
+</presets>
