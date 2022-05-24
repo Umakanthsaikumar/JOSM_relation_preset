@@ -1,8 +1,6 @@
-<!-- 
-	
-Title:..........JOSM relation Tagging Preset
+<!-- 	
+Title:..........JOSM custom relation Tagging Preset
 Authors:.........Godfan
-Contributors:...
 Latest update:..24/05/2022
 Summary:........This preset allows users to add multiple relation tags to be added as keyboard shortcuts using the toolbar.
 
@@ -12,7 +10,6 @@ Install instructions: (note a few restarts will be required)
 1. Add tagging preset in JOSM using the github raw link in the Map Setting preferences.
 2. Add presets to the toolbar in the Toolbar Customization preferences.
 3. Set keyboard shortcuts to desired preset tag in the Keyboard Shortcuts preferences (note: these will appear under "toolbar:" if searched. 
-
 -->
 
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
